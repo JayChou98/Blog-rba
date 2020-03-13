@@ -1,0 +1,40 @@
+html,body{
+  font: 14px/1.5 Helvetica,sans-serif,STHeiTi;
+  color: #333;
+  outline: 0;
+  margin: 0px;
+}
+/* 公用样式 */
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+a:focus{
+  outline: none;
+}
+img{
+  border:none;
+  vertical-align: top;
+}
+/* 兼容ie7及以下 */
+.clearfix{
+  *zoom: 1;
+}
+.clearfix::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+input{
+  text-indent: 5px;
+  /* outline:none; */
+}
